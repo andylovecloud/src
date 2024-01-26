@@ -30,7 +30,7 @@
             $g2 = 4;
             $g3 = 5;
         ?>
-    <table>
+    <table border = 1>
         <tr><th>S.n</th> <th>Name</th> <th>Grade</th></tr>
         <tr>
             <td>1</td>
