@@ -20,14 +20,17 @@ background-color: none;
 text-decoration-line: none;
 text-decoration: none;
 }
+/* a format for Logo link */
+{
+    text-decoration: none;
+}
 
 @media screen and (max-width: 1400) {
 .card {
     width: 100%;
 }
 }
-ul,
-li {
+ul, li {
 list-style: none;
 }
 .card {

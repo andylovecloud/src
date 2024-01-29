@@ -24,7 +24,7 @@
         <div class="p-2" style="font-family: 'Times New Roman', Times, serif;">
           <ul class="nav justify-content-between">
             <div class="fw-blod" style="align-items: center">
-              <h2 class="fw-bold" class="logo">Andy Huynh</h2>
+              <h2 class="fw-bold" class="logo"><a href="index.php"><p>Andy Huynh</p></h2>
             </div>
             <li class="nav-item">
               <a class="nav-link" aria-current="page" href="ex1.php"
@@ -35,7 +35,7 @@
               <a class="nav-link" href="index.php" on>
                 <h3>Exer-2</h3></a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a class="nav-link" href="#" on>
                 <h3>Exer-3</h3></a>
             </li>
@@ -54,7 +54,7 @@
             <li class="nav-item">
               <a class="nav-link" href="#" on>
                 <h3>Exer-7</h3></a>
-            </li>
+            </li> -->
             <li class="nav-item">
               <!-- <a class="nav-link" href="#"><h3>Contact</h3></a> -->
             </li>
