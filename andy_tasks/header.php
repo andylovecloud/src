@@ -28,11 +28,32 @@
             </div>
             <li class="nav-item">
               <a class="nav-link" aria-current="page" href="ex1.php"
-                ><h3>Exercise-1</h3></a
+                ><h3>Exer-1</h3></a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="index.php" on><h3>Exercise-2</h3></a>
+              <a class="nav-link" href="index.php" on>
+                <h3>Exer-2</h3></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" on>
+                <h3>Exer-3</h3></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" on>
+                <h3>Exer-4</h3></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" on>
+                <h3>Exer-5</h3></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" on>
+                <h3>Exer-6</h3></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" on>
+                <h3>Exer-7</h3></a>
             </li>
             <li class="nav-item">
               <!-- <a class="nav-link" href="#"><h3>Contact</h3></a> -->
