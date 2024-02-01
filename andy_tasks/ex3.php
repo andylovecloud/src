@@ -8,18 +8,19 @@ include 'header.php'; ?>
     to print “Hello [Firstname] [Lastname], You are welcome to my site.” inside an h3 tag 
     </h2> 
     <form action="process.php" method="post" name="form1">
-    <div class="mb-3">
-        First Name: <input type="text" name="fname" required>
-    </div>
-    <div class="mb-3">
-        Last Name: <input type="text" name="lname">
-    </div>
-    <div class="mb-3">
-        Email: <input type="email" name="email"><br><br>
-        
-        DOB:  <input type="date" name="dob"><br><br>
-        Select color: <input type="color" name="color"><br><br>
-        <input type="submit" class="btn btn-outline-success"><br><br>
+        <div class="mb-3">
+            First Name: <input type="text" name="fname" required>
+        </div>
+        <div class="mb-3">
+            Last Name: <input type="text" name="lname">
+        </div>
+        <div class="mb-3">
+            Email: <input type="email" name="email"><br><br>
+            
+            DOB:  <input type="date" name="dob"><br><br>
+            Select color: <input type="color" name="color"><br><br>
+            <input type="submit" class="btn btn-outline-success"><br><br>
+        </div>
     </form> <!--End of 3.2 -->
 
     <h2>3.4. HTML Table: Prepare a simple HTML table and apply Bootstrap styles to it. Note, you have already done a table in Exercise 1. 
@@ -84,13 +85,13 @@ include 'header.php'; ?>
     <h2> 3.8. Write a PHP script in the footer section of your universal footer to display the last modification time of a file. Hint: Use predefined variable $_SERVER, basename function  to get the filename , 
         filetime function to get the last modified time & date function to print the date and time
     </h2>
-        <img src="../andy_tasks/Last-modified.png">
+        <p> implemented as here -> <img src="../andy_tasks/Last-modified.png"></p>
     <?php
 
-    echo "<br>"."<br>"
+    echo "<br><br>"
     ?>
 </div> <!-- End of container center for body content-->
     <br><br>
-<?php
+<?php 
 include 'footer.php';
 ?>
