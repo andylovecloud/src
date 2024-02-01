@@ -16,6 +16,14 @@
                   style="text-align: center; color: rgb(255, 255, 255)"
                 >
                   <li><span style="text-decoration-line: none;">&copy; Designed by <a href="http://andy.io.vn/" target="_blank"> Andy Huynh</a></span></li>
+                  <li>
+                    <?php
+                      $fileName = basename($_SERVER['PHP_SELF']);
+                      $getModifiedTime = filemtime($fileName);
+                      $lastModifiedTime = date("F j, Y H:i:s",$getModifiedTime);
+                      echo "<p><i>Last modified " .$fileName. " on ".$lastModifiedTime.".</i></p>";
+                     ?>
+                  </li>
                 </ul>
               </div>
               <div>

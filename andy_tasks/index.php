@@ -1,5 +1,5 @@
 <?php 
-$title ='Exercise 2 - Andy Huynh';
+$title ='Exercise 2: Create universal header, footer, or sidebar';
 include 'header.php'; ?>
       <div class="container">
           <div class="row">
