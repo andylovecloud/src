@@ -58,3 +58,35 @@ input:invalid:required {
 input:invalid {
     border: 2px dashed red;
 }
+
+/*<!--CSS for active tab -->*/
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  *::before, *::after {
+      box-sizing: border-box;
+  }
+.nav__item {
+    padding: 1rem;
+   }   
+.nav__link {
+    display: block;
+    padding: .3125rem 1.5rem;
+    text-transform: uppercase;
+  }
+  
+  .nav__link.active  {
+   border: 1px solid #ff4b4c;
+    color: #ff4b4c;
+  } */
+
+  /* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
