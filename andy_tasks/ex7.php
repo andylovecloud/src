@@ -4,7 +4,7 @@ include 'header.php'; ?>
 
 <div class="container">
 <h2>Input Your Information Below:</h2>
-<form name="form1" method="post" action="">
+<form name="form1" method="post" action="process2.php">
     <div class="form-group">
         <div class="row">
             <div class="col">
