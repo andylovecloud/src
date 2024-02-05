@@ -52,7 +52,7 @@
                 <h3>Exercise-6</h3></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#" on>
+              <a class="nav-link" href="ex7.php" on>
                 <h3>Exercise-7</h3></a>
             </li>
             <li class="nav-item">
