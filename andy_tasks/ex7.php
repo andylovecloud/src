@@ -36,6 +36,10 @@ include 'header.php'; ?>
         </div>
     </div>
     <br>
+    <?php include "read.php" ;?>
+    <br>
+    <?php include "read-news.php" ;?>
+    <br>
     <button type="submit" class="btn btn-primary" name="submit">Submit</button>
 </form>
 </div>

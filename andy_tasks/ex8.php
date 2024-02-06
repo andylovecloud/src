@@ -1,26 +1,18 @@
-<?php 
-$title ='Exercise 1 - Andy Huynh';
-include 'header.php'; ?>
-
-<div class="container">
-<h2>Select the news you would like to show in below:</h2>
-<form name="form1" method="post" action="getNews.php">
-    <div class="form-group">
-        <div class="row">
-            <div class="col">
-                <label for="groupid">Kind of news:</label>
-                <select class="form-control" id="newsid" name="newsid">
-                    <option value="1">Travel</option>
-                    <option value="2">Business</option>
-                    <option value="3">Technology</option>
-                </select>
-            </div>
-        </div>
-    </div>
-    <br>
-    <button type="submit" class="btn btn-primary" name="submit">Search</button>
+<?php
+include 'header.php'; 
+include("database.php");
+include("filter-data.php");
+?>
+<form method="post">
+<select name="filterProduct">
+    <option value="productAsc"  <?php echo $_POST['filterProduct']=='productAsc'?'selected':''; ?>>Product Low to High</option>
+    <option value="productDesc" <?php echo $_POST['filterProduct']=='productDesc'?'selected':''; ?>>Product High to Low</option>
+</select>
+<input type="submit" name="filter">
 </form>
-</div>
-</body>
-<?php include 'footer.php'; ?>
 
+
+<?php
+ include("display-data.php");
+ include 'footer.php'; 
+?>
