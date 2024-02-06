@@ -32,7 +32,6 @@ if ($result->num_rows > 0) {
                 <td>{$row['news_categoryId']}</td>
               </tr>";
     }
-
     echo "</tbody></table>";
 } else {
     // Display a message if no results are found
