@@ -7,17 +7,14 @@ include 'header.php'; ?>
 
 if(isset($_POST['submit'])) // isset is validating all fields should not empty before submit
 {
-    $fname = $_POST["fname"];
-    $lname = $_POST["lname"];
-    $city = $_POST["city"];
-    $groupid = $_POST["groupid"];
+    $newsid = $_POST["newsid"];
 
 // connect to the database server
 include 'db.php';
 
 // write sql statement to insert data
 
-$sql = "insert into studentsinfo(first_name,last_name,groupId,city)
+$sql = "select * from studentsinfo(first_name,last_name,groupId,city)
         values ('$fname','$lname','$city','$groupid')";
 
 // validation the insert result
