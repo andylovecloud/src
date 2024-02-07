@@ -1,35 +1,24 @@
 <?php
-
 if(isset($_POST['filter'])) {
     
-    $filterProductData = filterProductData();
-
+    $filterDataByCategory = filterDataByCategory();
 }
-
-
-function filterProductData() {
-
-    $filterPrice = $_POST['filterProduct'];
+function filterDataByCategory() {
+    $filterByCategory = $_POST['filterByCategory'];
     global $conn;
     
     $data =[];
-    if(!empty($filterPrice)){
-         $orderby = 'DESC';
-        if($filterPrice == 'productAsc'){
-
-            $orderby = 'ASC';
-        }
-
-        $query = "SELECT id, productName FROM ".productTable;
-        $query .= " ORDER BY id ". $orderby;
-
+    if(!empty($filterByCategory)){
+    
+        $query = "SELECT title, news_desc, image, create_date, category FROM ".productTable;
+        $query .= " WHERE category= '$filterByCategory'";
+     
         $result = $conn->query($query);
-
+    
         if($result->num_rows > 0) {
           $data = $result->fetch_all(MYSQLI_ASSOC);;
         
         } 
    } 
-
    return $data;
 }

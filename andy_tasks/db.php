@@ -1,4 +1,6 @@
 <?php
+define('productTable', 'news');
+
 $servername = "php24-db-1"; //should be shell.hamk.fi
 $username = "crud_app";
 $password = "123456";
