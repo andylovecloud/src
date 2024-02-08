@@ -23,6 +23,6 @@ include 'header.php';
     </form>
 </div>
 <?php
- include("display-data.php");
+ include("display-data.php"); 
  include 'footer.php'; 
  ?>
