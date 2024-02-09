@@ -15,7 +15,10 @@ include 'header.php'; ?>
             Last Name: <input type="text" name="lname">
         </div>
         <div class="mb-3">
-            Email: <input type="email" name="email"><br><br>
+            Email: <input
+            type="text"
+            pattern="/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/"
+            required><br><br>
             
             DOB:  <input type="date" name="dob"><br><br>
             Select color: <input type="color" name="color"><br><br>
