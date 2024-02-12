@@ -59,22 +59,22 @@ include 'header.php'; ?>
 
 <script>
     // function to validate name
-    // function validateName()
-    // {
-    //     const name = document.getElementById("name").value;
-    //     const nameError = document.getElementById("nameError");
+    function validateName()
+    {
+        const name = document.getElementById("name").value;
+        const nameError = document.getElementById("nameError");
 
-    //     if(name.length < 3 || name.length > 20)
-    //     {
-    //         nameError.innerHTML = "Name must be between 3 and 20 characters!";
-    //         return false;
-    //     }
-    //     else
-    //     {
-    //         nameError.innerHTML = "";
-    //         return true;
-    //     }
-    // } 
+        if(name.length < 3 || name.length > 20)
+        {
+            nameError.innerHTML = "Name must be between 3 and 20 characters!";
+            return false;
+        }
+        else
+        {
+            nameError.innerHTML = "";
+            return true;
+        }
+    } 
 
     // function validateEmail()
     // {
@@ -120,7 +120,7 @@ include 'header.php'; ?>
     // }
 
 // event listeners for real time validation
-// document.getElementById("name").addEventListener("input",validateName);
+document.getElementById("name").addEventListener("input",validateName);
 // document.getElementsById("email").addEventListener("input",validateEmail);
 document.getElementById("password").addEventListener("input",validatePassword);
 // document.getElementById("age").addEventListener("input",validateAge);
