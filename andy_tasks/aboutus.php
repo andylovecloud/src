@@ -17,7 +17,7 @@ include 'header.php';
 </script>
     <br>
     <button onclick="hello()"> Click Me </button><br>
-    <button onclick="document.write('This is something')"> Click Me </button>
+    <button onclick="document.write('This is something')"> Click Me 2</button>
 
 </div>
 <?php include 'footer.php'; ?>
